@@ -1,0 +1,239 @@
+/* general settings
+background- color: 
+primery FFFFFF
+secondary 2F303A
+font-family: 'Roboto'; Raleway
+font-style: normal;
+font-weight: 400;500;700
+
+ */
+:root{
+   --primary-text-color:#757575;
+   --title-color:#212121;
+}
+ .basic{
+    background-color: #FFFFFF;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--primary-text-color);
+ }
+ /* HEADER */
+ a{
+    text-decoration: none;
+    
+    }
+ ul{
+    list-style: none;
+ }
+ .logo{
+font-family: Raleway,sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #2196F3;
+
+ }
+  .logo-part{ 
+    color: #000000; }
+
+ .nav-list{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: var(--title-color);
+ }
+ .link{
+   color:var(--title-color);
+ }
+ 
+ .link:hover, 
+ .link:focus{ 
+   color:#2196F3 ; 
+ }
+ .contact{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+ }
+ /* FOOTER */
+ .ground{
+background-color: #2F303A;
+ }
+.ground-logo{
+font-family: Raleway,sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.ground-logo-part{
+   color:#FFFFFF;
+}
+.location{
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
+}
+.location-address{
+   color:#FFFFFF;
+ 
+}
+.location-link{
+color: rgba(255, 255, 255, 0.6);
+}
+.location-address:hover,
+.location-address:focus{
+color: #2196F3;
+}
+.location-link:hover,
+.location-link:focus{
+color: #2196F3;
+}
+/* PORTFOLIO */
+.key:hover,
+.key:focus{
+ color:  #FFFFFF;
+ background: #2196F3;
+}
+.key{
+font-family: Roboto,sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+background: #F5F4FA;
+cursor: pointer;
+
+}
+.card-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: var(--title-color);
+
+}
+.card-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+
+}
+
+/* BODY */
+.visually-hidden{ 
+position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
+}
+.hero{
+   background-color: #2F303A;
+}
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero-key{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color:#2196F3;
+display: flex;
+}
+.benefits-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-color);
+}
+.benefits-text{
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+.work-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+.about{
+background-color:#F5F4FA;
+}
+.about-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+.card{
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.card-title{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+.card-text{
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+.foto-desinger{
+background: url(4853.jpg);
+border-radius: 0px;
+}
+.foto-developer{
+background: url(5844.jpg);
+border-radius: 0px;
+}
+.foto-marketing{
+background: url(16166.jpg);
+border-radius: 0px;
+}
+.foto-uidesigner{
+background: url(2968);
+border-radius: 0px;
+}

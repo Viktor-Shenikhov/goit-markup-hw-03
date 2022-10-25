@@ -17,8 +17,45 @@ font-weight: 400;500;700
     font-style: normal;
     font-weight: 400;
     color: var(--primary-text-color);
+    
  }
+ .container{
+   width: 1200px;
+   margin: 0;
+   padding: 0 15px;
+      
+ }
+
+ .container:not(:last-child){
+margin-bottom: 94px;
+ }
+   
+ 
+  h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ li,
+ ul,
+ ol {
+   margin: 0;
+   padding: 0;
+ }
+
+
  /* HEADER */
+ .navigation{
+   display: flex;
+   align-items: center;
+   /* justify-content: space-between; */
+ }
+ .border{
+   border-bottom: 1px solid #ECECEC;
+   width: 1600px;
+ }
  a{
     text-decoration: none;
     
@@ -27,6 +64,11 @@ font-weight: 400;500;700
     list-style: none;
  }
  .logo{
+display: inline-block;
+padding-top: 24px;
+padding-bottom: 25px;
+margin-right: 93px;
+
 font-family: Raleway,sans-serif;
 font-weight: 700;
 font-size: 26px;
@@ -35,17 +77,39 @@ letter-spacing: 0.03em;
 color: #2196F3;
 
  }
-  .logo-part{ 
-    color: #000000; }
+  .logo-part{
+display: inline-block;
+padding-top: 24px;
+padding-bottom: 25px; 
+color: #000000; }
 
  .nav-list{
+display: flex;
+margin-right: 344px;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 color: var(--title-color);
+
  }
+.contact-header{
+   display: flex;
+}
+
+ .nav-list li:not(:last-child),
+ .contact-header li:not(:last-child)
+ {
+   margin-right: 50px;
+ }
+
+   
+ 
  .link{
+   display: block;
+   padding-top: 32px;
+   padding-bottom: 32px;
    color:var(--title-color);
  }
  
@@ -59,12 +123,18 @@ font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
+
  }
+
  /* FOOTER */
  .ground{
 background-color: #2F303A;
  }
 .ground-logo{
+display: inline-block;
+margin-top: 60px;
+margin-bottom: 20px;
+
 font-family: Raleway,sans-serif;
 font-weight: 700;
 font-size: 26px;
@@ -76,6 +146,7 @@ color: #2196F3;
    color:#FFFFFF;
 }
 .location{
+   
 font-style: normal;
 font-size: 14px;
 line-height: 1.7;
@@ -83,12 +154,23 @@ letter-spacing: 0.03em;
 
 }
 .location-address{
+        
    color:#FFFFFF;
  
 }
 .location-link{
-color: rgba(255, 255, 255, 0.6);
-}
+      color: rgba(255, 255, 255, 0.6);
+   }
+  .item-address{
+   display: block;
+   margin-bottom: 9px;
+  } 
+  .item-address:last-child{
+   margin-bottom: 0px;
+   padding-bottom: 60px;
+  }
+   
+
 .location-address:hover,
 .location-address:focus{
 color: #2196F3;

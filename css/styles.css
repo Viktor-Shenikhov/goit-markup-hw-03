@@ -263,10 +263,16 @@ clip: rect(0 0 0 0);
 clip-path: inset(50%);
 margin: -1px;
 }
+.box{
+   width: 1600px;
+   height: 600px;
+}
 .hero{
    background-color: #2F303A;
 }
 .hero-title{
+padding: 200px 452px 0  452px;
+
 font-weight: 900;
 font-size: 44px;
 line-height: 1.4;
@@ -284,7 +290,11 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 background-color:#2196F3;
-display: flex;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+display: block;
+margin: 30px 692px 200px 692px;
 }
 .benefits-title{
 font-weight: 700;

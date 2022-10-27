@@ -64,11 +64,11 @@ margin-bottom: 94px;
    
  }
   .border{
-width: 1600px;
+/* width: 1600px;
 height: 0px;
 left: calc(50% - 1600px/2);
-top: calc(50% - 0px/2 - 860px);
-border: 1px solid #ECECEC;
+top: calc(50% - 0px/2 - 860px); */
+border-bottom: 1px solid #ECECEC;
   
  } 
  
@@ -248,6 +248,7 @@ font-size: 18px;
 line-height: 2.0;
 letter-spacing: 0.06em;
 color: var(--title-color);
+margin-bottom: 4px;
 
 }
 .card-text{
@@ -257,6 +258,9 @@ line-height: 1.9;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
 
+}
+.card-box div{
+   padding: 20px 24px;
 }
 
 /* BODY */
@@ -409,20 +413,20 @@ padding-top: 10px;
 .foto-desinger{
 background: url(4853.jpg);
 border-radius: 0px;
-/* margin-bottom: 30px; */
+ margin-bottom: 30px;
 }
 .foto-developer{
 background: url(5844.jpg);
 border-radius: 0px;
-/* margin-bottom: 30px; */
+ margin-bottom: 30px;
 }
 .foto-marketing{
 background: url(16166.jpg);
 border-radius: 0px;
-/* margin-bottom: 30px; */
+margin-bottom: 30px; 
 }
 .foto-uidesigner{
 background: url(2968);
 border-radius: 0px;
-/* margin-bottom: 30px; */
+ margin-bottom: 30px; 
 }
